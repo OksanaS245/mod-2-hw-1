@@ -211,9 +211,7 @@ form {
 
     
 }
-.form__input-wrapper:first-child > div {
-width: 295px;
-}
+
 .form__input {
     border-radius: 5px;
     width: 295px;

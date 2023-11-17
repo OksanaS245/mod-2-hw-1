@@ -80,9 +80,7 @@
     <div class="container">
         <div class="video-section-wrapper">
             <h2 class="section__title">Приятного просмотра</h2>
-            <video width="700" height="379" controls="controls" poster="img/video.png">
-                <source src="#" type='video/mp4; codecs="avc1.42E01E,mp4a.40.2"'>
-            </video>
+            <iframe width="700" height="379" src="https://www.youtube.com/embed/N7kgrYgDKRs?si=dhjVVXFRpHpXiQNn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
 </section>
@@ -92,13 +90,13 @@
             <form action="#" method="post" class="form">
                 <h3 class="form__title">Напиши мне</h3>
                 <div class="form__input-wrapper">
-                    <div>
+                    <div style="width: 295px;">
                         <label class="input__name" for="name" >Имя</label>
                         <input class="form__input" type="text" name="name" id="name" required placeholder="Введите ваше имя">
                     </div>
-                    <div>
+                    <div style="width: 295px;"> 
                         <label class="input__name" for="phone" >Телефон</label>
-                        <input class="form__input" type="tel" name="phone" id="phone" required pattern="[0-9]{10}" placeholder="Введите ваш телефон">
+                        <input class="form__input" type="tel" name="phone" id="phone" required placeholder="Введите ваш телефон" pattern="[0-9]{10}">
                     </div>
                     <button class="form__button" type="submit">Отправить</button>
                 </div>

@@ -50,9 +50,9 @@ ul {
 }
 
 img {
-    width: 100%
-    height: 100%
-    object-fit: contain
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .menu__logo {
@@ -177,7 +177,7 @@ th , td {
     padding-top: 150px;
 }
 
-video {
+iframe {
     border-radius: 10px;
     display: block;
     margin: 0 auto; 
@@ -211,6 +211,7 @@ form {
 
     
 }
+
 .form__input {
     border-radius: 5px;
     width: 295px;
@@ -239,7 +240,7 @@ form {
         padding-left: 10px;
     }
 
-    .form__input-wrapper:last-child{
+       .form__input-wrapper:last-child{
         position: relative;
                 }
 
@@ -305,7 +306,7 @@ form {
 
 .radio{
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     opacity: 0;
 }
 .radio+label{
@@ -368,7 +369,7 @@ form {
 .footer-section{
     display: flex;
 background: #372E46;
-margin 0 auto;
+margin: 0 auto;
 height: 148px;
 align-items: center;
 }

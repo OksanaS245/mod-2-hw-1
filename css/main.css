@@ -84,7 +84,7 @@ h1 {
 h2 {
     font-size: 40px;
     color: black;
-    padding-bottom: 67px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -199,8 +199,7 @@ form {
     padding-right: 54px;
     padding-top: 35px;
     padding-bottom: 50px;
-    gap: 56px;
-
+    
      
 }
 .form__input-wrapper {
@@ -210,6 +209,16 @@ form {
     position: relative;
 
     
+}
+
+.form__radio-wrapper, .form__checkbox-wrapper , .form__switch {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form__input-wrapper:first-child {
+    padding-bottom: 55px;
 }
 
 .form__input {
@@ -242,6 +251,7 @@ form {
 
        .form__input-wrapper:last-child{
         position: relative;
+        margin-top: 56px;
                 }
 
     .form__input-wrapper:last-child:before{
@@ -251,8 +261,10 @@ form {
         background: #656565;
         position: absolute;
         top: -28px;
+        
+
     }
-    
+        
     .form__input:valid{
         border: 1px solid green;
     }
@@ -268,7 +280,7 @@ form {
     font-size: 40px;
     color: black;
     text-align: center;
-    padding-bottom: 11px;
+    padding-bottom: 60px;
 }
 
 /*Кастомизация чекбокса и радиобаттон:
